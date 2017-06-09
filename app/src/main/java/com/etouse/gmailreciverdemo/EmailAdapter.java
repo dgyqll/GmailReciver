@@ -64,6 +64,7 @@ public class EmailAdapter extends RecyclerView.Adapter<EmailAdapter.EmailViewHol
         final float centerX = view.getWidth() / 2 ;
         final float centerY = view.getHeight() /2 ;
 
+
         final Rotate3dAnimation rotation = new Rotate3dAnimation(start, end,
                 centerX, centerY, 310.0f, true);
         rotation.setDuration(200);
