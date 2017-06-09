@@ -73,6 +73,7 @@ public class EmailAdapter extends RecyclerView.Adapter<EmailAdapter.EmailViewHol
         view.startAnimation(rotation);
     }
 
+
     @Override
     public int getItemCount() {
         return mShowDatas.size();
